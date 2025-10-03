@@ -24,7 +24,7 @@ ventana.config(bg="darkblue")
 
 
 
-etiqueta = tK.Label(ventana,
+etiqueta = tk.Label(ventana,
                     text="Botones presionados: ", font=("Arial",12),
                     bg="white", width=33, height=4, anchor="nw", justify="right")
 etiqueta.grid(row=0,column=1,columnspan=3,pady= 20)
@@ -83,6 +83,7 @@ bres.grid(row=3, column=4, padx=12,pady=25)
 
 
 ventana.mainloop()
+
 
 
 
