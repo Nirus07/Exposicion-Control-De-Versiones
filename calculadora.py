@@ -1,5 +1,14 @@
 from tkinter import *
 
+def suma(a,b):
+    return a+b
+
+def resta(a,b):
+    return a-b
+
+
+
+
 ventana=Tk()
 ventana.title("Calculadora")
 ventana.geometry("400x500")
@@ -71,14 +80,6 @@ bres.grid(row=3, column=4, padx=12,pady=25)
 
 
 ventana.mainloop()
-
-
-def suma(a,b):
-    return a+b
-
-def resta(a,b):
-    return a-b
-
 
 
 
