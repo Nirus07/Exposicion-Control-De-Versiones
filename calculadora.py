@@ -29,18 +29,14 @@ etiqueta = tk.Label(ventana,
                     bg="white", width=33, height=4, anchor="nw", justify="right")
 etiqueta.grid(row=0,column=1,columnspan=3,pady= 20)
 
+b7=Button(ventana, text="7")
+b7.grid(row=0, column=0, padx=12,pady=25)
 
-b0=Button(ventana, text="0")
-b0.grid(row=3, column=1, padx=12,pady=25)
+b8=Button(ventana, text="8")
+b8.grid(row=0, column=1, padx=12,pady=25)
 
-b1=Button(ventana, text="1",command=lambda: mostrar_boton("1"),width=6,height=3)
-b1.grid(row=2, column=0, padx=12,pady=25)
-
-b2=Button(ventana, text="2",command=lambda: mostrar_boton("2"),width=6,height=3)
-b2.grid(row=2, column=1, padx=12,pady=25)
-
-b3=Button(ventana, text="3",command=lambda: mostrar_boton("3"),width=6,height=3)
-b3.grid(row=2, column=2, padx=12,pady=25)
+b9=Button(ventana, text="9")
+b9.grid(row=0, column=2, padx=12,pady=25)
 
 b4=Button(ventana, text="4",command=lambda: mostrar_boton("4"),width=6,height=3)
 b4.grid(row=1, column=0, padx=12,pady=25)
@@ -51,14 +47,24 @@ b5.grid(row=1, column=1, padx=12,pady=25)
 b6=Button(ventana, text="6")
 b6.grid(row=1, column=2, padx=12,pady=25)
 
-b7=Button(ventana, text="7")
-b7.grid(row=0, column=0, padx=12,pady=25)
+b1=Button(ventana, text="1",command=lambda: mostrar_boton("1"),width=6,height=3)
+b1.grid(row=2, column=0, padx=12,pady=25)
 
-b8=Button(ventana, text="8")
-b8.grid(row=0, column=1, padx=12,pady=25)
+b2=Button(ventana, text="2",command=lambda: mostrar_boton("2"),width=6,height=3)
+b2.grid(row=2, column=1, padx=12,pady=25)
 
-b9=Button(ventana, text="9")
-b9.grid(row=0, column=2, padx=12,pady=25)
+b3=Button(ventana, text="3",command=lambda: mostrar_boton("3"),width=6,height=3)
+b3.grid(row=2, column=2, padx=12,pady=25)
+
+
+b0=Button(ventana, text="0")
+b0.grid(row=3, column=1, padx=12,pady=25)
+
+
+
+
+
+
 
 
 
@@ -83,6 +89,7 @@ bres.grid(row=3, column=4, padx=12,pady=25)
 
 
 ventana.mainloop()
+
 
 
 
