@@ -1,3 +1,4 @@
+
 from tkinter import *
 
 ventana=Tk()
@@ -53,6 +54,7 @@ def suma(a,b):
 
 def resta(a,b):
     return a-b
+
 
 
 
