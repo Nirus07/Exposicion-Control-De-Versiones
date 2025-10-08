@@ -91,22 +91,21 @@ boton_Igual.grid(row=6, column=3)
 boton_div.grid(row=6, column=4)
 boton_multi.grid(row=5, column=4)
 boton_res.grid(row=4, column=4)
-boton_suma.grid(row=3, column=4)
+
 boton_C.grid(row=2, column=3, columnspan=2)
 boton_borrar.grid(row=2, column=1, columnspan=2)
 # Row 3
-boton1.grid(row=3, column=1)
+
 boton2.grid(row=3, column=2)
 boton3.grid(row=3, column=3)
 # Row 4
 boton4.grid(row=4, column=1)
-boton5.grid(row=4, column=2)
+
 boton6.grid(row=4, column=3)
 
 # Row 5
 boton7.grid(row=5, column=1)
 boton8.grid(row=5, column=2)
-boton9.grid(row=5, column=3)
 
 # Row 6
 boton0.grid(row=6, column=1, columnspan=2)
